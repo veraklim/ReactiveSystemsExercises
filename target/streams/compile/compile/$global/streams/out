@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/main/scala/followers/Server.scala:198:7: dead code following this construct[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ???[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

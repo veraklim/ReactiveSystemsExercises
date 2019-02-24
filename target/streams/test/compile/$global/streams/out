@@ -1,0 +1,303 @@
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/actorbintree/BinaryTreeSuite.scala:8:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.{BeforeAndAfterAll, FunSuiteLike, Matchers}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/actorbintree/BinaryTreeSuite.scala:13:75: not found: type FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0mclass BinaryTreeSuite(_system: ActorSystem) extends TestKit(_system) with FunSuiteLike with Matchers with BeforeAndAfterAll with ImplicitSender[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/actorbintree/BinaryTreeSuite.scala:13:93: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass BinaryTreeSuite(_system: ActorSystem) extends TestKit(_system) with FunSuiteLike with Matchers with BeforeAndAfterAll with ImplicitSender[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/actorbintree/BinaryTreeSuite.scala:13:107: not found: type BeforeAndAfterAll[0m
+[0m[[0m[31merror[0m] [0m[0mclass BinaryTreeSuite(_system: ActorSystem) extends TestKit(_system) with FunSuiteLike with Matchers with BeforeAndAfterAll with ImplicitSender[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/actorbintree/BinaryTreeSuite.scala:30:48: not found: value fail[0m
+[0m[[0m[31merror[0m] [0m[0m        case ex: Throwable if ops.size > 10 => fail(s"failure to receive confirmation $i/${ops.size}", ex)[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/actorbintree/BinaryTreeSuite.scala:31:48: not found: value fail[0m
+[0m[[0m[31merror[0m] [0m[0m        case ex: Throwable                  => fail(s"failure to receive confirmation $i/${ops.size}\nRequests:" + ops.mkString("\n    ", "\n     ", ""), ex)[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/actorbintree/BinaryTreeSuite.scala:36:9: not found: value fail[0m
+[0m[[0m[31merror[0m] [0m[0m        fail("unexpected replies:" + pairs.map(x => s"at index ${x._2}: got ${x._1._1}, expected ${x._1._2}").mkString("\n    ", "\n    ", ""))[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/actorbintree/BinaryTreeSuite.scala:51:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("proper inserts and lookups") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/actorbintree/BinaryTreeSuite.scala:65:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("instruction example") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/actorbintree/BinaryTreeSuite.scala:89:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("behave identically to built-in set (includes GC)") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:5:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:12:26: not found: type FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass AsyncSuite extends FunSuite {[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:33:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("transformSuccess should transform successful computations") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:39:5: not found: value assertResult[0m
+[0m[[0m[31merror[0m] [0m[0m    assertResult(Success(x % 2 == 0))(result)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:42:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("transformSuccess should propagate the failure of a failed computation") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:48:5: not found: value assertResult[0m
+[0m[[0m[31merror[0m] [0m[0m    assertResult(Failure(failure))(result)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:51:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("recoverFailure should recover from failed computations") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:55:5: not found: value assertResult[0m
+[0m[[0m[31merror[0m] [0m[0m    assertResult(Success(-1))(result)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:58:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("recoverFailure should propagate successful computations") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:63:5: not found: value assertResult[0m
+[0m[[0m[31merror[0m] [0m[0m    assertResult(Success(x))(result)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:66:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("sequenceComputations should start the second computation after the first has completed") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:71:7: not found: value fail[0m
+[0m[[0m[31merror[0m] [0m[0m      fail("Asynchronous computations finished too early")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:78:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("sequenceComputations should not start the second computation if the first has failed") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:86:5: not found: value assertResult[0m
+[0m[[0m[31merror[0m] [0m[0m    assertResult(0)(counter.get())[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:89:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("concurrentComputations should start both computations independently of each other’s completion") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:97:9: not found: value fail[0m
+[0m[[0m[31merror[0m] [0m[0m        fail("Asynchronous computations took too much time")[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:101:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("insist should not retry successful computations") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:106:5: not found: value assertResult[0m
+[0m[[0m[31merror[0m] [0m[0m    assertResult(1)(counter.get())[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:109:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("insist should retry failed computations") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/async/AsyncSuite.scala:117:5: not found: value assertResult[0m
+[0m[[0m[31merror[0m] [0m[0m    assertResult(3)(counter.get())[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:13:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.concurrent.ScalaFutures[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:14:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.time.{Millis, Span}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:15:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.{BeforeAndAfterAll, FunSuiteLike}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:21:8: not found: type FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m  with FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:22:8: not found: type BeforeAndAfterAll[0m
+[0m[[0m[31merror[0m] [0m[0m  with BeforeAndAfterAll[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:23:8: not found: type ScalaFutures[0m
+[0m[[0m[31merror[0m] [0m[0m  with ScalaFutures {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:28:41: not found: type PatienceConfig[0m
+[0m[[0m[31merror[0m] [0m[0m  override implicit val patienceConfig: PatienceConfig =[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:29:5: not found: value PatienceConfig[0m
+[0m[[0m[31merror[0m] [0m[0m    PatienceConfig(timeout = scaled(Span(3000, Millis)), interval = scaled(Span(1000, Millis)))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:29:20: not found: value timeout[0m
+[0m[[0m[31merror[0m] [0m[0m    PatienceConfig(timeout = scaled(Span(3000, Millis)), interval = scaled(Span(1000, Millis)))[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:29:58: not found: value interval[0m
+[0m[[0m[31merror[0m] [0m[0m    PatienceConfig(timeout = scaled(Span(3000, Millis)), interval = scaled(Span(1000, Millis)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:33:11: value afterAll is not a member of akka.testkit.TestKit[0m
+[0m[[0m[31merror[0m] [0m[0m    super.afterAll()[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:36:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("reframedFlow: chunks containing exactly one message should pass through") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:38:75: value futureValue is not a member of scala.concurrent.Future[scala.collection.immutable.Seq[String]][0m
+[0m[[0m[31merror[0m] [0m[0m    val got = Source(incoming).via(Server.reframedFlow).runWith(Sink.seq).futureValue[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:42:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("reframedFlow: chunks containing fragments of messages should be re-assembled") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:44:75: value futureValue is not a member of scala.concurrent.Future[scala.collection.immutable.Seq[String]][0m
+[0m[[0m[31merror[0m] [0m[0m    val got = Source(incoming).via(Server.reframedFlow).runWith(Sink.seq).futureValue[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:48:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("reframedFlow: reject an input stream that is completed in the middle of a frame") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:54:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("eventParserFlow: successfully parse events") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:61:78: value futureValue is not a member of scala.concurrent.Future[scala.collection.immutable.Seq[followers.model.Event]][0m
+[0m[[0m[31merror[0m] [0m[0m    val got = Source(incoming).via(Server.eventParserFlow).runWith(Sink.seq).futureValue[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:71:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("reintroduceOrdering: pass through a sorted stream directly") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:75:40: value futureValue is not a member of scala.concurrent.Future[scala.collection.immutable.Seq[followers.model.Event]][0m
+[0m[[0m[31merror[0m] [0m[0m    val got = sorted.runWith(Sink.seq).futureValue[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:79:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("reintroduceOrdering: reintroduce ordering, 2 off") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:87:40: value futureValue is not a member of scala.concurrent.Future[scala.collection.immutable.Seq[followers.model.Event]][0m
+[0m[[0m[31merror[0m] [0m[0m    val got = sorted.runWith(Sink.seq).futureValue[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:92:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("followersFlow: add a follower") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:97:10: value futureValue is not a member of scala.concurrent.Future[scala.collection.immutable.Seq[(followers.model.Event, followers.model.Followers)]][0m
+[0m[[0m[31merror[0m] [0m[0mpossible cause: maybe a semicolon is missing before `value futureValue'?[0m
+[0m[[0m[31merror[0m] [0m[0m        .futureValue[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:101:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("followersFlow: remove a follower") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:106:10: value futureValue is not a member of scala.concurrent.Future[scala.collection.immutable.Seq[(followers.model.Event, followers.model.Followers)]][0m
+[0m[[0m[31merror[0m] [0m[0mpossible cause: maybe a semicolon is missing before `value futureValue'?[0m
+[0m[[0m[31merror[0m] [0m[0m        .futureValue[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:114:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("identityParserSink: extract identity") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:116:43: value futureValue is not a member of scala.concurrent.Future[followers.model.Identity][0m
+[0m[[0m[31merror[0m] [0m[0m      .runWith(Server.identityParserSink).futureValue === Identity(42))[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:119:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("identityParserSink: re-frame incoming bytes") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:124:22: value futureValue is not a member of scala.concurrent.Future[followers.model.Identity][0m
+[0m[[0m[31merror[0m] [0m[0m    )).runWith(sink).futureValue === Identity(12))[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:127:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("isNotified: always notify users of broadcast messages") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:133:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("isNotified: notify the followers of an user that updates his status") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:138:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("eventsFlow: downstream should receive completion when the event source is completed") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:150:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("incomingDataFlow: reframe, reorder and compute followers") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:164:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("outgoingFlow: filter out events that should not be delivered to the given user") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:184:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("clientFlow: handle one client following another") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:202:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("clientFlow: ensure that event before issuing a Follow is not sent to that follower") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/followers/FollowersSuite.scala:219:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("clientFlow: ensure that users get notified from private messages") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/IntegrationSpec.scala:8:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.{FunSuiteLike, Matchers}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/IntegrationSpec.scala:11:11: not found: type FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m  extends FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/IntegrationSpec.scala:12:14: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m        with Matchers { this: KVStoreSuite =>[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step1_PrimarySpec.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step1_PrimarySpec.scala:10:11: not found: type FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m  extends FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step1_PrimarySpec.scala:4:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step1_PrimarySpec.scala:11:14: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m        with Matchers { this: KVStoreSuite =>[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step2_SecondarySpec.scala:5:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step2_SecondarySpec.scala:12:11: not found: type FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m  extends FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step2_SecondarySpec.scala:4:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step2_SecondarySpec.scala:13:14: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m        with Matchers { this: KVStoreSuite =>[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step3_ReplicatorSpec.scala:5:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step3_ReplicatorSpec.scala:10:11: not found: type FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m  extends FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step3_ReplicatorSpec.scala:4:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step3_ReplicatorSpec.scala:11:14: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m        with Matchers { this: KVStoreSuite =>[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step4_SecondaryPersistenceSpec.scala:4:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step4_SecondaryPersistenceSpec.scala:11:11: not found: type FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m  extends FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step4_SecondaryPersistenceSpec.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step4_SecondaryPersistenceSpec.scala:12:14: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m        with Matchers { this: KVStoreSuite =>[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step5_PrimaryPersistenceSpec.scala:4:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step5_PrimaryPersistenceSpec.scala:12:11: not found: type FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m  extends FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step5_PrimaryPersistenceSpec.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step5_PrimaryPersistenceSpec.scala:13:14: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m        with Matchers { this: KVStoreSuite =>[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step6_NewSecondarySpec.scala:4:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step6_NewSecondarySpec.scala:10:11: not found: type FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m  extends FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step6_NewSecondarySpec.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step6_NewSecondarySpec.scala:11:8: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m  with Matchers { this: KVStoreSuite =>[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/KVStoreSuite.scala:5:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.BeforeAndAfterAll[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/KVStoreSuite.scala:16:10: not found: type BeforeAndAfterAll[0m
+[0m[[0m[31merror[0m] [0m[0m    with BeforeAndAfterAll {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step1_PrimarySpec.scala:15:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("Step1-case1: Primary (in isolation) should properly register itself to the provided Arbiter") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Step1_PrimarySpec.scala:23:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("Step1-case2: Primary (in isolation) should react properly to Insert, Remove, Get") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/scala_projects/edx/reactive/src/test/scala/kvstore/Tools.scala:9:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FunSuiteLike[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m290 errors found[0m
